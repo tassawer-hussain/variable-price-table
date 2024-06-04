@@ -1,0 +1,156 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
+    
+    
+}
+    
+.th-pricing {
+    margin: 50px auto;
+}
+
+.th-sim-item {
+    background: linear-gradient(90deg, #0f1b3f 0, #194281);
+    border-radius: 7px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, .2);
+    margin-top: 50px;
+    min-height: 286px;
+}
+.th-item-header {
+    border-bottom-color: hsla(0, 0%, 93%, .1) !important;
+    align-items: flex-start;
+    border-bottom: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px 20px 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+.th-sim-item-header-info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: calc(100% - 140px);
+    min-height: 63px;
+    width: 100%;
+}
+.th-operator-title {
+    color: #fff;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    line-height: 1.1578947368;
+    word-break: break-word;
+    max-width: calc(100% - 10px);
+    margin: 0;
+}
+.th-sim-item-image {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .3);
+    margin-top: -23px;
+    max-height: 70px;
+    min-height: 70px;
+    overflow: hidden;
+}
+.th-sim-item-image img {
+    height: 70px;
+    width: auto;
+}
+UL.sim-item-list {
+    color: #fff;
+    list-style-type: none;
+    margin-bottom: 0 !important;
+}
+UL.sim-item-list li {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+.th-sim_item-row {
+    border-color: #fff #fff hsla(0, 0%, 93%, .1) !important;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid transparent;
+    padding: 18px 20px 19px;
+    width: 100%;
+}
+.th-sim_item-row i {
+    display: inline-flex;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 3px;
+}
+.th-sim_item-row .sim-item-row-left-key {
+    font-size: .6875rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+    max-width: calc(50% - 18px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.th-sim_item-row .sim-item-row-right-value {
+    max-width: 140px;
+    font-size: .9375rem;
+    font-weight: 600;
+    letter-spacing: -.1px;
+    line-height: 1.2;
+    text-align: right;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: auto !important;
+    overflow: hidden !important;
+}
+.th-sim-item-bottom {
+    border-top: 1px solid hsla(0, 0%, 93%, .1);
+    padding: 20px;
+}
+.th-sim-item-bottom .th-sim-item-bottom-button {
+    display: flex !important;
+}
+.th-sim-item-bottom .th-sim-item-bottom-button a {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    padding: 15px 20px;
+    transition: all .25s;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.th-sim-item-bottom .th-sim-item-bottom-button a:hover,
+.th-sim-item-bottom .th-sim-item-bottom-button a:focus,
+.th-sim-item-bottom .th-sim-item-bottom-button a:active {
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.th-sim-item-bottom-button a span {
+    font-size: 1.8em;
+}
+    
